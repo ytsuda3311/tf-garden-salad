@@ -3,8 +3,6 @@
 // モーダル
 jQuery(function () {
     let scrollPos; // TOPからのスクロール位置
-    jQuery('.modal-wrap').hide();
-    jQuery('.modal').hide();
 
     jQuery('.contact-privacy-link').on('click', function () {
         scrollPos = jQuery(window).scrollTop(); // TOPからのスクロール位置を格納
